@@ -14,6 +14,26 @@
 		94464D3D25E0D2AC00C6F4F5 /* SampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94464D3B25E0D2AC00C6F4F5 /* SampleApp.xcdatamodeld */; };
 		94464D3F25E0D2D300C6F4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94464D3E25E0D2D300C6F4F5 /* Assets.xcassets */; };
 		94464D4225E0D2D300C6F4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94464D4025E0D2D300C6F4F5 /* LaunchScreen.storyboard */; };
+		94464D5025E0DC5800C6F4F5 /* TopTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94464D4F25E0DC5800C6F4F5 /* TopTabCell.swift */; };
+		94464D5625E0DEE300C6F4F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94464D5425E0DEE300C6F4F5 /* Extensions.swift */; };
+		9451FD0F25E277A00041F419 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD0E25E277A00041F419 /* CustomCollectionViewCell.swift */; };
+		9451FD1225E278230041F419 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD1125E278230041F419 /* MainTabController.swift */; };
+		9451FD1525E2784C0041F419 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD1425E2784C0041F419 /* FeedController.swift */; };
+		9451FD1925E27E9C0041F419 /* ChatDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD1825E27E9C0041F419 /* ChatDetailsController.swift */; };
+		9451FD1C25E27EA40041F419 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD1B25E27EA40041F419 /* ChatCell.swift */; };
+		9451FD1F25E27EB10041F419 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD1E25E27EB10041F419 /* ViewController+Extension.swift */; };
+		9451FD2425E27EC10041F419 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD2225E27EC10041F419 /* UserInfo.swift */; };
+		9451FD2525E27EC10041F419 /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD2325E27EC10041F419 /* EntryItem.swift */; };
+		9451FD2D25E27ECF0041F419 /* UserDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD2A25E27ECF0041F419 /* UserDBHelper.swift */; };
+		9451FD4325E28FA90041F419 /* Customer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD3F25E28FA90041F419 /* Customer+CoreDataClass.swift */; };
+		9451FD4425E28FA90041F419 /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD4025E28FA90041F419 /* Customer+CoreDataProperties.swift */; };
+		9451FD4525E28FA90041F419 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD4125E28FA90041F419 /* User+CoreDataClass.swift */; };
+		9451FD4625E28FA90041F419 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD4225E28FA90041F419 /* User+CoreDataProperties.swift */; };
+		9451FD4B25E2A74F0041F419 /* CustomerDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD4A25E2A74F0041F419 /* CustomerDBHelper.swift */; };
+		9451FD5025E2C6A40041F419 /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451FD4F25E2C6A40041F419 /* SampleCell.swift */; };
+		94D818D225E0FC4C00751FF2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D818D125E0FC4C00751FF2 /* Utilities.swift */; };
+		94D818D525E127EE00751FF2 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D818D425E127EE00751FF2 /* ExampleController.swift */; };
+		94D818D825E12D0900751FF2 /* optionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D818D725E12D0900751FF2 /* optionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,26 @@
 		94464D3E25E0D2D300C6F4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94464D4125E0D2D300C6F4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94464D4325E0D2D300C6F4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94464D4F25E0DC5800C6F4F5 /* TopTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabCell.swift; sourceTree = "<group>"; };
+		94464D5425E0DEE300C6F4F5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9451FD0E25E277A00041F419 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		9451FD1125E278230041F419 /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		9451FD1425E2784C0041F419 /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		9451FD1825E27E9C0041F419 /* ChatDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsController.swift; sourceTree = "<group>"; };
+		9451FD1B25E27EA40041F419 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		9451FD1E25E27EB10041F419 /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		9451FD2225E27EC10041F419 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		9451FD2325E27EC10041F419 /* EntryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
+		9451FD2A25E27ECF0041F419 /* UserDBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDBHelper.swift; sourceTree = "<group>"; };
+		9451FD3F25E28FA90041F419 /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9451FD4025E28FA90041F419 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9451FD4125E28FA90041F419 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9451FD4225E28FA90041F419 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9451FD4A25E2A74F0041F419 /* CustomerDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDBHelper.swift; sourceTree = "<group>"; };
+		9451FD4F25E2C6A40041F419 /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		94D818D125E0FC4C00751FF2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		94D818D425E127EE00751FF2 /* ExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
+		94D818D725E12D0900751FF2 /* optionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +98,13 @@
 		94464D3125E0D2AB00C6F4F5 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				9451FD4925E2A6F10041F419 /* Viewcontroller */,
+				9451FD2725E27ECF0041F419 /* CoreData */,
+				9451FD2125E27EC10041F419 /* Model */,
+				94464D5225E0DEE300C6F4F5 /* Utils */,
+				94464D4E25E0DBAE00C6F4F5 /* View */,
 				94464D3225E0D2AB00C6F4F5 /* AppDelegate.swift */,
 				94464D3425E0D2AB00C6F4F5 /* SceneDelegate.swift */,
-				94464D3625E0D2AB00C6F4F5 /* ViewController.swift */,
 				94464D3825E0D2AC00C6F4F5 /* Main.storyboard */,
 				94464D3E25E0D2D300C6F4F5 /* Assets.xcassets */,
 				94464D4025E0D2D300C6F4F5 /* LaunchScreen.storyboard */,
@@ -68,6 +112,62 @@
 				94464D3B25E0D2AC00C6F4F5 /* SampleApp.xcdatamodeld */,
 			);
 			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		94464D4E25E0DBAE00C6F4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94D818D725E12D0900751FF2 /* optionCell.swift */,
+				9451FD0E25E277A00041F419 /* CustomCollectionViewCell.swift */,
+				94464D4F25E0DC5800C6F4F5 /* TopTabCell.swift */,
+				9451FD1B25E27EA40041F419 /* ChatCell.swift */,
+				9451FD4F25E2C6A40041F419 /* SampleCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94464D5225E0DEE300C6F4F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				94D818D125E0FC4C00751FF2 /* Utilities.swift */,
+				9451FD1E25E27EB10041F419 /* ViewController+Extension.swift */,
+				94464D5425E0DEE300C6F4F5 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9451FD2125E27EC10041F419 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9451FD2225E27EC10041F419 /* UserInfo.swift */,
+				9451FD2325E27EC10041F419 /* EntryItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9451FD2725E27ECF0041F419 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9451FD3F25E28FA90041F419 /* Customer+CoreDataClass.swift */,
+				9451FD4025E28FA90041F419 /* Customer+CoreDataProperties.swift */,
+				9451FD4125E28FA90041F419 /* User+CoreDataClass.swift */,
+				9451FD4225E28FA90041F419 /* User+CoreDataProperties.swift */,
+				9451FD2A25E27ECF0041F419 /* UserDBHelper.swift */,
+				9451FD4A25E2A74F0041F419 /* CustomerDBHelper.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9451FD4925E2A6F10041F419 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				9451FD1425E2784C0041F419 /* FeedController.swift */,
+				94464D3625E0D2AB00C6F4F5 /* ViewController.swift */,
+				9451FD1825E27E9C0041F419 /* ChatDetailsController.swift */,
+				94D818D425E127EE00751FF2 /* ExampleController.swift */,
+				9451FD1125E278230041F419 /* MainTabController.swift */,
+			);
+			path = Viewcontroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +240,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9451FD1F25E27EB10041F419 /* ViewController+Extension.swift in Sources */,
 				94464D3725E0D2AB00C6F4F5 /* ViewController.swift in Sources */,
+				94464D5025E0DC5800C6F4F5 /* TopTabCell.swift in Sources */,
+				9451FD1225E278230041F419 /* MainTabController.swift in Sources */,
 				94464D3D25E0D2AC00C6F4F5 /* SampleApp.xcdatamodeld in Sources */,
+				9451FD4325E28FA90041F419 /* Customer+CoreDataClass.swift in Sources */,
+				9451FD2425E27EC10041F419 /* UserInfo.swift in Sources */,
+				9451FD5025E2C6A40041F419 /* SampleCell.swift in Sources */,
 				94464D3325E0D2AB00C6F4F5 /* AppDelegate.swift in Sources */,
+				9451FD4525E28FA90041F419 /* User+CoreDataClass.swift in Sources */,
 				94464D3525E0D2AB00C6F4F5 /* SceneDelegate.swift in Sources */,
+				94D818D225E0FC4C00751FF2 /* Utilities.swift in Sources */,
+				9451FD4425E28FA90041F419 /* Customer+CoreDataProperties.swift in Sources */,
+				9451FD1C25E27EA40041F419 /* ChatCell.swift in Sources */,
+				9451FD2525E27EC10041F419 /* EntryItem.swift in Sources */,
+				9451FD2D25E27ECF0041F419 /* UserDBHelper.swift in Sources */,
+				94D818D525E127EE00751FF2 /* ExampleController.swift in Sources */,
+				9451FD4B25E2A74F0041F419 /* CustomerDBHelper.swift in Sources */,
+				9451FD1525E2784C0041F419 /* FeedController.swift in Sources */,
+				9451FD1925E27E9C0041F419 /* ChatDetailsController.swift in Sources */,
+				9451FD4625E28FA90041F419 /* User+CoreDataProperties.swift in Sources */,
+				94464D5625E0DEE300C6F4F5 /* Extensions.swift in Sources */,
+				94D818D825E12D0900751FF2 /* optionCell.swift in Sources */,
+				9451FD0F25E277A00041F419 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
